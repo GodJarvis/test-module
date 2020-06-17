@@ -1,0 +1,28 @@
+{
+  "name": "godjarvis/test-module",
+  "description": "this is a test",
+  "authors": [
+    {
+      "name": "godjarvis",
+      "email": "nothing@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "7.0.0-rc.1",
+    "php": ">=7.2.5",
+    "ext-gd": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xfs\\": "application/"
+    }
+  },
+  "version": "1.1.0",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer"
+    }
+  ]
+}
